@@ -764,5 +764,10 @@
   "763": "\\`unstable_rootParams\\` must not be used within a client component. Next.js should be preventing it from being included in client components statically, but did not in this case.",
   "764": "Missing workStore in %s",
   "765": "Route %s used %s inside a Route Handler. Support for this API in Route Handlers is planned for a future version of Next.js.",
-  "766": "%s was used inside a Server Action. This is not supported. Functions from 'next/root-params' can only be called in the context of a route."
+  "766": "%s was used inside a Server Action. This is not supported. Functions from 'next/root-params' can only be called in the context of a route.",
+  "767": "Dynamic href \\`%s\\` found in <Link> while using the \\`/app\\` router, this is not supported. Instead, you should use \\`path\\` and \\`params\\` props. Read more: https://nextjs.org/docs/messages/app-dir-dynamic-href",
+  "768": "Invalid <Link> with neither `href` nor `path` prop. You must provide exactly one of these props.",
+  "769": "Invalid <Link> with `params` prop but no `path` prop. `params` can only be used with `path`.",
+  "770": "Invalid <Link> with both `href` and `path` props. You must use exactly one of these props.",
+  "771": "Invalid <Link> with `searchParams` prop but no `path` prop. `searchParams` can only be used with `path`."
 }
